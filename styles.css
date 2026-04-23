@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1a1a2e;
+  color: #eee;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 12px;
+}
+
+h1 { font-size: 2rem; letter-spacing: 4px; color: #4ecca3; }
+
+#score { font-size: 1.1rem; color: #aaa; }
+
+#game {
+  border: 2px solid #4ecca3;
+  background: #16213e;
+  display: block;
+}
+
+#msg { font-size: 0.9rem; color: #888; }
